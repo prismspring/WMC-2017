@@ -1,0 +1,92 @@
+@font-face {
+	font-family: Eng;
+	src: url(../font/Eng.ttf);
+}
+
+@font-face {
+	font-family: th-;
+	src: url(../font/thai.ttf);
+}
+
+@font-face {
+	font-family: th;
+	src: url(../font/cordia.ttc);
+}
+
+@font-face {
+	font-family: light;
+	src: url(../font/Eng2.otf);
+}
+
+body{
+	margin:0;
+	padding: 0;
+	background-color:rgb(17,17,17);
+}
+
+.pw{
+	width: 100%;
+	height: 100vh;
+	animation-name: show;
+	animation-duration: 0.5s;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in-out;
+	-webkit-animation-name: show;
+	-webkit-animation-duration: 0.5s;
+	-webkit-animation-iteration-count: 1;
+	-webkit-animation-timing-function: ease-in-out;
+}
+
+.clickb {
+	font-size:8vw;
+	color:white;
+	cursor:default;
+	font-family: light;
+	transition: color 0.5s, text-shadow 0.5s;
+	text-shadow: 0 0 0.5vw white;
+	cursor:pointer;
+}
+
+.clickb:hover {
+	text-shadow: 0 0 0.5vw lightskyblue;
+	color: lightskyblue;
+}
+
+.clickb:active {
+	color: red;
+	text-shadow: 0 0 0.5vw red;
+}
+
+.clickb-2 {
+	font-size:8vw;
+	color:white;
+	cursor:default;
+	font-family: light;
+	transition: color 0.5s, text-shadow 0.5s;
+	text-shadow: 0 0 0.5vw white;
+	cursor:pointer;
+}
+
+.clickb-2:hover {
+	text-shadow: 0 0 0.5vw rgb(150,150,150);
+	color: rgb(150,150,150);
+}
+
+.clickb-2:active {
+	color: red;
+	text-shadow: 0 0 0.5vw red;
+}
+
+.forward{
+	padding: 0;
+	height: 95vh;
+	width: 5%;
+	float:right;
+	background-color: rgba(17,17,17,0.5);
+	position:absolute;
+}
+
+@keyframes show {
+	from {opacity:0;}
+	to {opacity:1;}
+}

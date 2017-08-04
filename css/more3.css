@@ -1,0 +1,70 @@
+@font-face {
+	font-family: eng;
+	src: url(../font/Eng.ttf);
+}
+
+@font-face {
+	font-family: Thai;
+	src: url(../font/thai.ttf);
+}
+@font-face {
+	font-family: hand;
+	src: url(../font/hand.ttf);
+}
+body {
+	background-attachment: fixed;
+	overflow: hidden;
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-family: Thai;
+}
+.full {
+	display: block;
+	margin: 2.5vw 5vw;
+	margin-left: 3.67vw;
+	width: 92vw;
+	height: 90vh;
+	background-color: rgba(0,0,0,0.57);
+}
+.halfleft {
+	display: inline-block;
+	background-color: rgba(0,0,0,0.8);
+	color: white;
+	border-right: 1vh solid rgba(38,103,69,1);
+	border-radius: 0;
+	width:32%;
+	height: 100%;
+	font-family: Thai;
+	transition-duration: 3s;
+}
+.halfleft:hover {
+	background-color: rgba(0,0,0,0);
+}
+.helfright {
+	display: inline-block;
+	float: right;
+	width: 30%;
+}
+img {
+	margin-top: 4.8vw;
+	margin-left: 42vw;
+	position: absolute;
+	width: 37vw;
+
+}
+.topic1 {
+	padding-top: 1.2vw;
+	font-size: 10vh;
+}
+.text1 {
+	padding: 2vw;
+	font-size: 2vw;
+}
+@keyframes sizer {
+	from {
+	background-size: 100vw;
+	}
+	to {
+		background-size: 110vw;
+	}
+}
